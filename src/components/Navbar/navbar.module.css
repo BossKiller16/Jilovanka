@@ -1,0 +1,121 @@
+nav {
+   position: relative;
+   width: 300px;
+   padding: 0;
+   margin: 0;
+   height: -webkit-calc(100% - 61px);
+   height: -moz-calc(100% - 61px);
+   height: -ms-calc(100% - 61px);
+   height: calc(100% - 61px);
+   height: 100%;
+   border-right: 1px solid grey;
+   background: white;
+}
+.menuIcon {
+   display: none;
+}
+.logo {
+   width: 300px;
+
+   padding: 0;
+   margin: 0;
+   background-size: cover;
+   background-position: center;
+}
+
+.brand {
+   font-size: 35px;
+   font-family: fantasy;
+   text-align: center;
+   margin: auto;
+}
+
+.list {
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 200%;
+   font-size: 25px;
+   bottom: 10px;
+
+   position: relative;
+   margin: auto;
+   padding: 0;
+}
+.list li Link {
+   text-decoration: none;
+   list-style-type: none;
+}
+.list li {
+   list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+   nav {
+      width: 100%;
+      position: relative;
+      padding: 0 !important;
+
+      height: 100px;
+   }
+   .logo {
+      width: 100%;
+   }
+   .chata,
+   .jilovanka {
+      display: none;
+   }
+   .brand {
+      text-align: center top;
+/*  */      font-size: 25px;
+    
+      width: 100px;
+      height: 250px;
+      left: 0px;
+      margin-top: 50px;
+      padding: 0;
+      transform: scale(2);
+;
+   }
+
+   .list {
+      line-height: 1;
+      font-size: 25px;
+      right: 20px;
+/*       transform: translate(0%, -50%);
+ */      position: relative;
+      margin: auto;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+   }
+   .list li Link {
+      overflow: hidden;
+      float: left;
+      text-decoration: none;
+      list-style-type: none;
+   }
+   .list li {
+      list-style-type: none;
+   }
+   .list li Link {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: grey;
+   }
+   .list li Link:hover {
+      text-decoration: none;
+
+      color: black;
+   }
+   .menuIcon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      cursor: pointer;
+      font-size: 1.8rem;
+   }
+}

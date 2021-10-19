@@ -1,0 +1,37 @@
+.nadpis {
+   font-size: 35px;
+   width: 350px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+.texty {
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: 25px;
+
+   line-height: 45px;
+}
+
+.chata {
+   border-bottom: 1px solid black;
+   padding-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+   .nadpis {
+      font-size: 35px;
+      width: 300px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+   }
+   .texty {
+      /*      margin: auto; */
+      font-size: 20px;
+text-align:justify;
+      line-height: 25px;
+      padding-left: 0px;
+   }
+ .uvodos{
+    padding-top:25px;
+    
+ }  
+}

@@ -1,0 +1,32 @@
+.info {
+   position: relative;
+   margin-left: 10%;
+   padding-top: 50px;
+   font-size: 30px;
+
+   display: inline-block;
+}
+.mapa {
+   position: relative;
+   display: inline-block;
+   width: 550px;
+   height: 250px;
+   padding-left: 100px;
+}
+.mailto{
+text-decoration: none;
+}
+@media screen and (max-width: 960px) {
+   .info {
+      margin-left: 5%;
+      font-size: 20px;
+      padding-left: 20px;
+   }
+   .mapa {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      margin-left: 0;
+      padding-left: 45px;
+   }
+}

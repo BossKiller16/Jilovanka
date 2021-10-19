@@ -1,0 +1,20 @@
+.aktivity {
+   padding-top: 50px;
+   margin-left: 10%;
+   margin-right: 10%;
+
+   font-size: 25px;
+
+   line-height: 50px;
+}
+.first {
+   border-bottom: 1px solid grey;
+   padding-bottom: 10px;
+}
+.nadpis {
+   font-size: 30px;
+}
+.calendar {
+   width: 1350px;
+   height: 1350px;
+}

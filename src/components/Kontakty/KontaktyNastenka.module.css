@@ -1,0 +1,34 @@
+.nastenka {
+   background-image: url('../album/exterier/aktivity.png');
+   background-repeat: no-repeat;
+   image-rendering: pixelated;
+   image-rendering: auto;
+   image-rendering: crisp-edges;
+   height: 300px;
+   background-size: cover;
+}
+.galery {
+   font-size: 60px;
+   position: absolute;
+   color: white;
+   border-bottom: 1px solid white;
+   border-top: 1px solid white;
+   top: 15%;
+   left: 10%;
+   margin-left: 300px;
+
+   /* transform: translate(-50%, -50%); */
+}
+@media screen and (max-width: 900px) {
+      .nastenka{
+     height: 200px;
+   }
+   .galery {
+      transform: translate(50%, 0%);
+      margin-left: 0px;
+      font-size: 40px;
+/*       top: 25%;
+      left: 50%; */
+   
+   }
+}

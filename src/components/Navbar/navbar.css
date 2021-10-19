@@ -1,0 +1,47 @@
+.list {
+   display: inline-block;
+
+   position: relative;
+}
+.link:hover {
+   color: black !important;
+}
+.link {
+   color: grey !important;
+}
+@media screen and (max-width: 900px) {
+   .navbar {
+      position: relative;
+   }
+
+   .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      top: 100px;
+      height: 812px;
+      position: absolute;
+   /*    right: 100%; */
+       display: none;
+      opacity: 1;
+      transition: all 0.5s ease;
+   }
+
+   .nav-menu.active {
+      background-color: rgb(245, 245, 245);
+      right: 0;
+      opacity: 0.9;
+padding-bottom: 350px;
+      display: inherit;
+      transition: all 0.5s ease;
+      z-index: 1;
+   }
+   .link {
+      width: 100%;
+      display: table;
+   }
+
+   .fa-times {
+      color: black;
+   }
+}
